@@ -128,14 +128,6 @@ router.route('/users/:userId')
 
 router.route('/users/:userId/projects')
   .get( async (req, res) => {
-    // try {
-    //   const userId = req.params.userId
-
-    //   if(userId !== req.tokenData._id && req.tokenData.profile === 'user'){
-    //     res.status(404).json({ message: `Usuario con ID ${userId} no encontrado.` })
-    //     return
-    //   }
-    //   let foundUser = await userModel.findById(userId).exec()
 
     })
 
